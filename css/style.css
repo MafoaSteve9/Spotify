@@ -1,0 +1,46 @@
+.barre_lateral {
+    width: 250px;
+    text-align: left;
+    /* background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(67,69,69,1) 100%);
+    background-repeat: no-repeat; */
+}
+.logo {
+    width: 30%;
+}
+img {
+    width: 100%;
+}
+ul {
+    padding: 25px;
+}
+li img {
+    width: 25px;
+    padding-top: 10px;
+    margin: 0 10px 12px 0;
+}
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    /* color: rgba(245, 245, 245, 0.938); */
+}
+.container {
+    display: flex;
+}
+.section_1 {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+}
+.flechette {
+    width: 50%;
+    background-color: antiquewhite;
+}
+.menu_deroulant {
+    display: flex;
+    width: 50%;
+    background-color: rgb(218, 30, 30);
+    justify-content: end;
+}
